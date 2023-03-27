@@ -24,7 +24,7 @@ import os
 # DATABASE_URL = "postgres://akgtftpmgyhgog:ad9a2d4a2b084177089d0a91e19497d4ef6db05ba5cff2be94e41b79e3bee131@ec2-3-208-74-199.compute-1.amazonaws.com:5432/d62pm3hb4lh4nc"
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', "8BYkEfBA6O6donzWlSihBXox7C0sKR6b")
 ckeditor = CKEditor(app)
 Bootstrap(app)
 gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
