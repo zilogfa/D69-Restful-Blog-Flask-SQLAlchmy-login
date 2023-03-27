@@ -21,7 +21,8 @@ from forms import LoginForm, RegisterForm, CreatePostForm, CommentForm
 from flask_gravatar import Gravatar
 import os
 
-DATABASE_URL = "postgres://akgtftpmgyhgog:ad9a2d4a2b084177089d0a91e19497d4ef6db05ba5cff2be94e41b79e3bee131@ec2-3-208-74-199.compute-1.amazonaws.com:5432/d62pm3hb4lh4nc"
+# DATABASE_URL = "postgres://akgtftpmgyhgog:ad9a2d4a2b084177089d0a91e19497d4ef6db05ba5cff2be94e41b79e3bee131@ec2-3-208-74-199.compute-1.amazonaws.com:5432/d62pm3hb4lh4nc"
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 ckeditor = CKEditor(app)
