@@ -1,11 +1,16 @@
 """
 Dev: Ali Jafarbeglou
-Blog Service App Project - 2022/2023
-Key Features:
-- Responsive & RESTful
-- unlimited username - log-in & log-out
-- Authentication - Access management - Secure Salt/Hash Password
-- Post - comment / Modify / Delete
+Blogging Platform (RESTful Full-Stack Web App) 
+Create your own blog and share your thoughts with the world! Our platform lets you write, edit, and publish your posts easily. You can also customize your blog and connect with other bloggers and readers. Just sign up, choose a name, and start blogging! 
+
+. RESTful & Responsive Design
+. Authentication & Security
+. Data Manipulation
+. Relational database
+
+Python - Flask Web Framework - SQLalchemy/SQLite 
+
+JavaScript/jQuery/HTML/CSS/Bootstrap
 """
 
 from flask import Flask, render_template, redirect, url_for, flash, abort
