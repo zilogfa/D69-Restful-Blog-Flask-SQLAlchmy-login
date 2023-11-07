@@ -55,11 +55,18 @@ pip install Flask Flask-Bootstrap Flask-CKEditor Flask-Login Flask-Gravatar Flas
 
 This application includes basic security features such as hashed passwords and login management. Remember to use environment variables to keep your `SECRET_KEY` and database credentials secure.
 
+
 ## Credits
 
-Developed by Ali Jafarbeglou, this platform is a testament to the capabilities of modern web development with Flask and related technologies.
+- Backend Development by Ali Jafarbeglou.
+- Front-end templates sourced.
+- Flask and associated extensions are open-source projects, and credit goes to their respective contributors.
+- The SQLite database is a project of the [SQLite Consortium](https://www.sqlite.org/consortium.html).
+
+Special thanks to everyone who contributed to the development and testing of this blogging platform.
 
 For any inquiries or issues, please contact the developer.
+
 
 
 ```
